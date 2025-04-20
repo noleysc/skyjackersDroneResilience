@@ -1,0 +1,16 @@
+<?xml version='1.0'?>
+<sdf version='1.8'>
+  <model name='iris_drone'>
+    <include>
+      <uri>model://iris</uri>
+    </include>
+
+    <!-- Add communication sensor -->
+    <link name="comm_link">
+      <sensor name="radio" type="custom">
+        <always_on>1</always_on>
+        <update_rate>30</update_rate>
+      </sensor>
+    </link>
+  </model>
+</sdf>
