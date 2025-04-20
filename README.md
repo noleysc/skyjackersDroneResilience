@@ -26,6 +26,7 @@ A ROS 2 implementation of a multi-drone network with encrypted communication.
 ## usage
 1. Build the workspace:
 ```bash
+cd ~/drone_network_ws
 colcon build
 source install/setup.bash
-
+ros2 launch skyjackers_drone_network drone_network.launch.py
