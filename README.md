@@ -7,7 +7,7 @@ A ROS 2 implementation of a multi-drone network with encrypted communication.
 - Encrypted communication between drones
 - Circular flight paths with varying heights
 - Position, velocity, and heading tracking
-- Real-time monitoring
+- Real-time monitoring and logs
 
 ## flight path
 - Each drone follows a circular path
@@ -17,11 +17,11 @@ A ROS 2 implementation of a multi-drone network with encrypted communication.
 - Oscillating height pattern
 
 ## notes
-- The drone network uses a shared encryption key for demonstration purposes
+- The drone network uses a shared encryption key
 - Each drone follows a unique circular path to avoid collisions
 - Update frequency is set to 3 seconds for clear monitoring
-- Position data includes x, y, z coordinates and velocity vectors
-- Monitor displays real-time encrypted and decrypted messages
+- Position data includes x, y, z coordinates and velocity (including direction) vectors
+- Console displays real-time encrypted and decrypted messages
 
 ## usage
 1. Build the workspace:
